@@ -50,7 +50,8 @@ var valeurAbsolue = function (nombre) {
     return Math.abs(nombre);
 }
 var valeurAbsolueArray = function (array) {
-    return Math.abs('array');
+    var result = array.map(Math.abs);
+    return result 
 }
 var sufaceCercle = function (rayon) {
     return Math.round(Math.PI * (rayon * rayon));
